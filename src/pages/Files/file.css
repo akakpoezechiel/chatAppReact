@@ -1,0 +1,66 @@
+
+.file-list-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color:#fff;
+    min-height: 100vh;
+  }
+  
+  .file-list-view h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .file-list-view button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .file-list-view button:hover {
+    background-color: #0056b3;
+  }
+  
+  .file-list-view ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .file-list-view li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .file-list-view li:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .file-list-view li p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  /* Styling for file details */
+  .file-list-view li p:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
